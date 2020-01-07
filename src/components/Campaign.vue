@@ -14,7 +14,7 @@ export default {
     props: ['cid'],
     computed:  {
       campaign() {
-          return this.$store.state.campaigns.find(campaign => campaign.id == this.cid  )
+          return this.$store.state.campaignTest.find(campaign => campaign.id == this.cid  )
       }
     },
     methods: {

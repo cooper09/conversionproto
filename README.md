@@ -1,4 +1,4 @@
-# conversionsproto
+# proto2
 
 ## Project setup
 ```

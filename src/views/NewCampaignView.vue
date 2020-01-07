@@ -1,18 +1,18 @@
 <template>
   <div class="stinky">
-    <h1>This is the Admin view</h1>
+    <h1>This is the New Campaign view</h1>
     <Nav />
-    <Admin />
+    <NewCampaign />
   </div>
 </template>
 <script>
 import Nav from '@/components/Nav'
-import Admin from '@/components/Admin'
+import NewCampaign from '@/components/NewCampaign'
 
 export default {
     components: {
       Nav,
-      Admin
+      NewCampaign
   },
 }//end export default
 </script>
